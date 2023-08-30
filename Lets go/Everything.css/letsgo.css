@@ -1,0 +1,120 @@
+
+*{   
+    width: 100%;
+    height: 100vh;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.Everything{
+    position: absolute;
+    right: 0%;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    background-color: black;
+    color: antiquewhite;
+    z-index: 2
+}
+
+body{
+    min-height: 100vh;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.bubble{
+    position: relative;
+    display: flex;
+}
+
+.bubble span{
+    position: relative;
+    width: 10px;
+    height: 10px;
+    background-color: rgba(86, 249, 255, 0.767);
+    margin: 0 4px;
+    box-shadow: 0 0 0 10px rgba(0, 191, 255, 0.288), 0 0 50px rgb(0, 191, 255), 0 0 100px #4fc3dc;
+    animation: animat linear 15s infinite;
+    animation-duration:  calc(125s / var(--i)) ;
+}
+
+.bubble span:nth-child(even){
+    background-color: rgb(0, 162, 255);
+    box-shadow: 0 0 0 10px #4fc3dc, 0 0 50px red 0 0 100px red;
+    
+}
+
+
+.Everything video{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+}
+
+#bubble2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 50px;
+}
+
+.bubble a{
+    width: 100px;
+    height: 36px;
+    background-color: #4fc3dc;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    color: white;
+    border-color: aqua;
+    padding: 2px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+
+
+@keyframes animat{
+    0%{
+        transform: translateY(100vh);
+         scale:(0);
+    }
+
+    100%{
+        transform: translateY(-10vh);
+        scale: (1);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .bubble span{
+        width: 5px;
+        height: 5px;
+        margin: 0 4px;
+        padding: 0%;
+    }
+
+    .container{
+        width: 100%;
+        height: 100%;
+    }
+}

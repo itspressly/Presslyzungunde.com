@@ -1,0 +1,101 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    animation: transition 1.75s;
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+@keyframes transition{
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to{
+        opacity: 1;
+        transform: rotateX('0');
+    }
+
+}
+
+.About{
+    height: 119vh;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+}
+
+.pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px cornsilk;
+    background-color: brown;
+    width: 50%;
+    height: 100%;
+}
+
+
+.text{
+    width: 50%;
+    background-color: azure;
+    padding: 10px;
+}
+
+.text a{
+    text-decoration: none;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 3px;
+    color: aliceblue;
+    font-size: smaller;
+}
+
+.text a:hover{
+    color: rgba(0, 0, 0, 0.623);
+}
+
+.shadow{
+    height: 151px;
+    width: 150px;
+    background-size: cover;
+    background-image: url(—Pngtree—led\ full\ hd\ 4k\ tv_7323685.png);
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+}
+
+.shadow video{
+    width: 162.5px;
+    height: 92px;
+    background-size: cover;
+    
+}
+
+@media screen and (max-width: 425px) {
+    .text a{
+        text-decoration: none;
+        background-color: aqua;
+        padding: 10px;
+        border-radius: 3px;
+        color: aliceblue;
+        font-size: 12px;
+    }
+
+    .pic{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 5px cornsilk;
+        background-color: brown;
+        width: 50%;
+        height: 100%;
+    }
+}
