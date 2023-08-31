@@ -186,14 +186,14 @@
 
 
 
-@media all and  (max-width: 600px){
+@media all and  (max-width: 400px){
 
     .showcase{
         position: absolute;
         right: 0%;
         width: 100%;
         min-height: 100vh;
-        padding: 1px;
+        padding: 0px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -231,7 +231,7 @@
 
 
 
-@media all and (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
     .showcase{position: absolute;
     right: 0%;
     width: 100%;
