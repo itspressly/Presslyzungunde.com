@@ -79,14 +79,14 @@ body{
     
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 600px) {
     .text a{
         text-decoration: none;
         background-color: aqua;
         padding: 10px;
         border-radius: 3px;
         color: aliceblue;
-        font-size: 12px;
+        font-size: 65%;
     }
 
     .pic{
@@ -97,5 +97,8 @@ body{
         background-color: brown;
         width: 50%;
         height: 100%;
+    }
+
+    .phonelink{
     }
 }
