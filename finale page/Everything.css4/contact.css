@@ -1,0 +1,47 @@
+*{
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+    color: white;
+}
+
+.top{
+    margin: 0%;
+    background-color: rgb(241, 201, 114);
+    height: 250px;
+    width: 100%;
+    padding: 2px;
+}
+
+.bottem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    background-color: rgb(226, 161, 76);
+    height: 250px;
+    width: 100%;
+}
+
+.white p{
+    color: antiquewhite;
+}
+
+.black{
+    display: flex;
+    align-items: center; 
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+
+.white video{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    opacity: 0.9;
+}
