@@ -7,32 +7,39 @@
 
 .top{
     margin: 0%;
-    background-color: rgb(241, 201, 114);
+    background-color: rgba(254, 255, 254, 0.973);
     height: 250px;
     width: 100%;
     padding: 2px;
+    
 }
 
 .bottem{
     display: flex;
-    align-items: center;
     justify-content: center;
     padding: 2px;
-    background-color: rgb(226, 161, 76);
-    height: 250px;
     width: 100%;
+    background-color: rgb(226, 161, 76);
+    height: 53%;
 }
 
-.white p{
+.white h5{
     color: antiquewhite;
+    display: flex;
+    padding: 14px;
+    justify-content: center;
 }
 
 .black{
     display: flex;
-    align-items: center; 
+    align-items: flex-start;
     justify-content: space-around;
+    justify-content: flex-start;
     flex-direction: column;
-
+    
+    width: 100%;
+    
+    height: 100%;
 }
 
 .white video{
@@ -43,5 +50,45 @@
     width: 100%;
     height: 250px;
     object-fit: cover;
-    opacity: 0.9;
+    opacity: 0.7;
+}
+
+.black h4{
+    display: flex;
+    justify-content: flex-start;
+    width: 170px;
+}
+
+#message{
+    height: 700px;
+    width: 97%;
+}
+
+#name{
+    width: 97%;
+}
+
+#surname{
+    width: 97%;
+}
+
+#email{
+    width: 97%;
+}
+
+#number{
+    width: 97%;
+}
+
+#submit{
+    background-color: rgb(38, 199, 92);
+    width: 100px;
+    border-radius: 12px;
+    border-color: rgba(77, 230, 47, 0.767);
+}
+
+.black textarea{
+    max-width: 97%;
+    width: 97%;
+    height: 700px;
 }
