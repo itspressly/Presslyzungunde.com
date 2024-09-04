@@ -37,6 +37,7 @@ body{
 .bubble{
     position: relative;
     display: flex;
+    align-items: center;
 }
 
 .bubble span{
